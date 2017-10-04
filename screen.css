@@ -23,3 +23,24 @@ body{
   padding-right: 22px;
   padding-left: 22px;
 }
+h1,h2,h3 {
+  padding-bottom: 22px;
+}
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 55px;
+}
+h2 {
+  font-size: 33px;
+  font-weight: bold;
+  padding-top: 22px;
+}
+h3 {
+  font-weight: bold;
+  padding-top: 22px;
+}
+li {
+  padding-bottom: 11px;
+  font-size: 14px;
+}
