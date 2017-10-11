@@ -12,11 +12,11 @@ html {
   font-size: 1.125em;
   line-height: 22px;
   line-height: 1.222em;
+  text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-asjust: 100%;
-  text-size-adjust: 100%;
 }
 body{
   padding-top: 66px;
@@ -53,6 +53,17 @@ ol {
   color: red;
 }
 
+/* Layout Styles */
+
+#Menu {
+  background-color: #f7bb80;
+  color: black;
+  padding: 1.3em;
+  width: 80%;
+  min-width: 80vw;
+  height: 80%
+  min-height: 150vh;
+}
 /* State */
 /* @media screen and (min-width: 370px) {
   body {
