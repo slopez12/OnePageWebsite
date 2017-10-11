@@ -46,42 +46,52 @@ h3 {
 li {
   padding-bottom: 11px;
   font-size: 14px;
-  line-height: 16px
+  line-height: 16px;
+  color: red;
+  text-align: justify;
 }
 ol {
   padding-bottom: 10px;
   font-size: 11px;
   line-height: 13px;
   margin-left: 15px;
-  color: red;
 }
 
 /* Layout Styles */
 
 #Menu {
-  background-color: #f7bb80;
+  /* background-color: #f7bb80; */
   color: black;
   padding: 1.3em;
-  width: 80%;
+  width: 100%;
   min-width: 80vw;
-  height: 80%
+  height: 100%
   min-height: 150vh;
 }
 /* State */
-/* @media screen and (min-width: 370px) {
+ @media screen and (min-width: 370px) {
   body {
     padding-right: 5.9459459%; /* 22/370=0.059459459 */
-    /* padding-left: 5.9459459%; /* 22/370=0.059459459 */
+    padding-left: 5.9459459%; /* 22/370=0.059459459 */
   }
 }
-/*@media screen and (min-width: 625px) {
+@media screen and (min-width: 625px) {
   html {
     font-size: 1.25em; /*20/16=1.25 */
   }
+  #sandwiches {
+    width: 65.9883721%; /* 567.5 / 860 = 0.659883721 */
+    float: left;
+  }
+  #dinners {
+    width: 31.9767442%; /* 275 / 860 = 0.319767442 */
+    margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
+    float: left;
 }
-/*@media screen and (min-width: 720px) {
+}
+@media screen and (min-width: 720px) {
   body {
     padding-right: 1.11111111%; /* 80/720=0.111111111 */
-  /*  padding-left: 1.11111111%; /* 80/720=0.1111111119 */
+    padding-left: 1.11111111%; /* 80/720=0.1111111119 */
   }
 }
