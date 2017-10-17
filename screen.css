@@ -19,7 +19,7 @@ html {
   -ms-text-size-asjust: 100%;
 }
 img {
-  width: 100%
+  max-width: 100%
   display: block;
   text-align:center;
 }
@@ -31,21 +31,19 @@ body{
 }
 h1,h2,h3 {
   padding-bottom: 22px;
+  font-weight: bold;
 }
 h1 {
   font-size: 44px;
-  font-weight: bold;
   line-height: 55px;
   text-align: center;
 }
 h2 {
   font-size: 33px;
-  font-weight: bold;
   padding-top: 22px;
   text-align: center;
 }
 h3 {
-  font-weight: bold;
   padding-top: 22px;
   text-align: center;
 }
@@ -65,7 +63,7 @@ ol {
 
 /* Layout Styles */
 
-#Menu {
+#Menu, #sandwiches, #dinners {
   background-color: #f7bb80;
   color: black;
   padding: 1.3em;
@@ -75,8 +73,36 @@ ol {
   min-height: 150vh;
 }
 
+#About {
+  background-color: #ff7682;
+  color: black;
+  padding: 1.3em;
+  width: 100%;
+  min-width: 80vw;
+  height: 100%;
+  min-height: 50vh;
+}
 
+#Contactinfo {
+  background-color: #f2d1ba;
+  color: black;
+  padding: 1.3em;
+  width: 100%;
+  min-width: 80vw;
+  height: 100%;
+  min-height: 30vh;
+}
 
+#Contact {
+  text-align: left;
+}
+#Hours {
+  text-align: right;
+}
+
+#Onlinelinks {
+  text-align: center;
+}
 /* State */
  @media screen and (min-width: 370px) {
   body {
