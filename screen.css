@@ -63,7 +63,7 @@ ol {
 
 /* Layout Styles */
 
-#Menu, #sandwiches, #dinners {
+#Menu {
   background-color: #f7bb80;
   color: black;
   padding: 1.3em;
@@ -104,15 +104,23 @@ ol {
   text-align: center;
 }
 /* State */
- @media screen and (min-width: 370px) {
+ @media screen and (min-width: 25px) {
   body {
     padding-right: 5.9459459%; /* 22/370=0.059459459 */
     padding-left: 5.9459459%; /* 22/370=0.059459459 */
+  }
+  .photo img {
+    width: 375px;
+    float:left;
   }
 }
 @media screen and (min-width: 625px) {
   html {
     font-size: 1.25em; /*20/16=1.25 */
+  }
+  .photo img {
+    width: 475px;
+    float: left;
   }
   #sandwiches {
     width: 65.9883721%; /* 567.5 / 860 = 0.659883721 */
