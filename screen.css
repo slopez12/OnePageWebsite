@@ -29,27 +29,34 @@ body{
   padding-right: 22px;
   padding-left: 22px;
 }
-h1,h2,h3 {
-  padding-bottom: 22px;
-  font-weight: bold;
-}
+
 h1 {
   font-size: 44px;
+  font-weight: bold;
+  font-family: 'Bookman', Verdana,'Times New Roman', serif;
   line-height: 55px;
   text-align: center;
+  padding-bottom: 22px;
 }
-h2 {
+h2, h4, h5 {
   font-size: 33px;
+  font-weight: bold;
+  font-family: Garamond, 'Palatino', serif;
   padding-top: 22px;
   text-align: center;
+  padding-bottom: 22px;
 }
-h3 {
+h3, h6, h7, h8 {
   padding-top: 22px;
+  font-weight: bold;
+  font-family: Garamond, 'Palatino', serif;
   text-align: center;
+  padding-bottom: 22px;
 }
 #Menu li {
   padding-bottom: 11px;
   font-size: 14px;
+  font-family: Garamond, 'Palatino', serif;
   line-height: 16px;
   color: red;
   text-align: justify;
@@ -102,6 +109,14 @@ ol {
 
 #Onlinelinks {
   text-align: center;
+}
+
+#Food {
+  float: right;
+}
+
+#Inside {
+  float:right;
 }
 /* State */
  @media screen and (min-width: 25px) {
