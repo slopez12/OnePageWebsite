@@ -46,7 +46,7 @@ h2, h4, h5 {
   text-align: center;
   padding-bottom: 22px;
 }
-h3, h6, h7, h8 {
+h3 {
   padding-top: 22px;
   font-weight: bold;
   font-family: Garamond, 'Palatino', serif;
@@ -102,17 +102,6 @@ ol {
 
 #Contact {
   text-align: left;
-}
-#Hours {
-  text-align: right;
-}
-
-#Onlinelinks {
-  text-align: center;
-}
-
-#Food {
-  float: right;
 }
 
 #Inside {
