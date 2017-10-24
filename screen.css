@@ -19,15 +19,8 @@ html {
   -ms-text-size-asjust: 100%;
 }
 img {
-  max-width: 100%;
-  display: block;
+  max-width: 300px;
   text-align:center;
-}
-
-body{
-  padding-top: 66px;
-  padding-right: 22px;
-  padding-left: 22px;
 }
 
 h1 {
@@ -72,6 +65,14 @@ ol {
 }
 
 /* Layout Styles */
+#header {
+  background-color: #3d516c;
+  color: white;
+  padding: 1.3em;
+  /*width: 100%;*/
+  /*min-width: 50vw;*/
+  height: 80vh;
+}
 
 .inside {
   background: url(TasteofChicago1.jpg);
@@ -80,33 +81,35 @@ ol {
 #Menu {
   background-color: #3d516c;
   color: black;
-  padding: 1.3em;
-  width: 100%;
-  min-width: 50vw;
-  height: 100%;
-  min-height: 70vh;
+  /*width: 100%;*/
+  /*min-width: 50vw;*/
+  height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 #Menu li {
-  padding-bottom: 22px;
+  padding-bottom: 18px;
   font-size: 20px;
   font-family: serif;
   line-height: 16px;
   color: white;
 }
 
-#sandwiches {
+#sandwiches, #dinners {
   text-align: center;
+  border-style: double;
+  border-color: #cb9101;
+  border-width: 22px;
 }
 
 #contact_us {
   background-color: #cb9101;
   color: black;
   padding: 1.3em;
-  width: 100%;
+  /*width: 100%;
   min-width: 70vw;
   height: 100%;
-  min-height: 47vh;
+  min-height: 47vh;*/
   text-align: center;
   font-family: serif;
   font-size: 35px;
