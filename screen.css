@@ -18,15 +18,15 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-asjust: 100%;
 }
-img {
+/*img {
   max-width: 300px;
   text-align:center;
-}
+}*/
 
 h1 {
   font-size: 44px;
   font-weight: bold;
-  font-family: 'Bookman', Verdana,'Times New Roman', serif;
+  font-family: serif;
   line-height: 55px;
   text-align: center;
   padding-bottom: 22px;
@@ -35,15 +35,15 @@ h2 {
   font-size: 45px;
   color: white;
   font-weight: bold;
-  font-family: Garamond, 'Palatino', serif;
+  font-family: serif;
   padding-top: 22px;
   text-align: center;
-  padding-bottom: 22px;
+  padding-bottom: 35px;
 }
 h3 {
   padding-top: 22px;
   font-size: 33px;
-  font-family: Garamond, 'Palatino', serif;
+  font-family: serif;
   text-align: center;
   padding-bottom: 22px;
   color: white;
@@ -52,17 +52,11 @@ h3 {
 h4 {
   font-size: 50px;
   font-weight: bold;
-  font-family: Garamond, 'Palatino', serif;
+  font-family: serif;
   text-align: center;
   padding: 30px;
 }
 
-ol {
-  padding-bottom: 10px;
-  font-size: 11px;
-  line-height: 13px;
-  margin-left: 15px;
-}
 
 /* Layout Styles */
 #header {
@@ -81,6 +75,7 @@ ol {
 #Menu {
   background-color: #3d516c;
   color: black;
+  padding: 1.3em;
   /*width: 100%;*/
   /*min-width: 50vw;*/
   height: 100vh;
@@ -131,7 +126,6 @@ ol {
 
 .location {
   width: 50%;
-  margin: 15px;
   float:left;
 }
 
@@ -164,14 +158,18 @@ ol {
     float: left;
   }
   #sandwiches {
-    width: 65.9883721%; /* 567.5 / 860 = 0.659883721 */
+    width: 50%; /* 567.5 / 860 = 0.659883721 */
     float: left;
   }
   #dinners {
-    width: 31.9767442%; /* 275 / 860 = 0.319767442 */
+    width: 40%; /* 275 / 860 = 0.319767442 */
     margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
     float: left;
 }
+  /*#mexdin {
+    width: 40%; /* 275 / 860 = 0.319767442 */
+    margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
+    float: right;*/
 }
 @media screen and (min-width: 720px) {
   body {
