@@ -168,10 +168,10 @@ h4 {
   .title {
     border-width: 20px;
   }
-  .inside img {
+  /*.inside img {
     width: 50px;
     height: 50px;
-  }
+  }*/
   h2 {
     font-size: 35px;
     line-height: 40px;
@@ -211,14 +211,15 @@ h4 {
  h1 {
    font-size: 60px;
    line-height: 65px;
+   margin: 1.5em;
  }
  .title {
    border-width: 25px;
  }
- .inside img {
+ /*.inside img {
    width: 50px;
    height: 50px;
- }
+ }*/
  h2 {
    font-size: 45px;
  }
@@ -250,14 +251,15 @@ h4 {
  h1 {
    font-size: 70px;
    line-height: 80px;
+    margin: 2em;
  }
  .title {
    border-width: 35px;
  }
- .inside img {
+ /*.inside img {
    width: 50px;
    height: 50px;
- }
+ }*/
  h2 {
    font-size: 50px;
  }
@@ -286,26 +288,23 @@ h4 {
 }
 @media screen and (min-width: 920x) {
   html {
-    font-size: 2em; /*20/16=1.25 */
+    font-size: 2.5em; /*20/16=1.25 */
   }
  h1 {
    font-size: 70px;
-   margin: 1.5em;
+   margin: 2em;
  }
  #header {
    padding: 2em;
  }
- .inside img {
+ /*.inside img {
    width: 50px;
    height: 50px;
- }
+ }*/
  #Menu {
    height: 150vh;
  }
- h4 {
-   text-align: center;
- }
- #contact {
-   text-align: center;
- }
+ .contactinfo {
+   margin-right: 1em;
+   margin-left: 1em;
 }
