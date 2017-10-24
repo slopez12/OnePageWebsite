@@ -24,20 +24,22 @@ html {
 }*/
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   /*font-weight: bold;*/
   font-family: serif;
-  line-height: 70px;
+  line-height: 90px;
+  margin: 2.5em;
   text-align: center;
 }
 h2 {
-  font-size: 45px;
+  font-size: 50px;
+  line-height: 60px;
   color: white;
   font-weight: bold;
   font-family: serif;
-  padding-top: 22px;
+  padding-top: 35px;
   text-align: center;
-  padding-bottom: 35px;
+  padding-bottom: 45px;
 }
 h3 {
   padding-top: 22px;
@@ -61,10 +63,12 @@ h4 {
 #header {
   background-color: #3d516c;
   color: white;
-  padding: 1.3em;
+  padding: 4em;
   /*width: 100%;*/
   /*min-width: 50vw;*/
-  height: 80vh;
+}
+
+.title {
   border-style: double;
   border-color: #cb9101;
   border-width: 44px;
