@@ -146,7 +146,7 @@ h4 {
 
 #footer {
   text-align: center;
-  font-size: 0.9em; /* 18 / 20 = 0.9em */
+  font-size: 15px; 
   height: 100%;
   background-color: #3d516c;
   color: white;
@@ -242,11 +242,12 @@ h4 {
    font-size: 25px;
    line-height: 30px;
    text-align: right;
+   margin-left: 1em;
  }
 }
 @media screen and (min-width: 720px) {
   html {
-    font-size: 2em; /*20/16=1.25 */
+    font-size: 2em; /* */
   }
  h1 {
    font-size: 70px;
@@ -271,12 +272,12 @@ h4 {
    padding-left: 1em;
  }
  #sandwiches {
-   width: 40%; /* 275 / 860 = 0.319767442 */
+   width: 40%; /*  */
    float: left;
  }
  #dinners {
-   width: 40%; /* 275 / 860 = 0.319767442 */
-   margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
+   width: 40%; /*  */
+   margin-left: 2.0348837%; /* */
    float: right;
  }
  #map {
@@ -288,7 +289,7 @@ h4 {
 }
 @media screen and (min-width: 920x) {
   html {
-    font-size: 2.5em; /*20/16=1.25 */
+    font-size: 2.5em; /* */
   }
  h1 {
    font-size: 70px;
@@ -297,14 +298,33 @@ h4 {
  #header {
    padding: 2em;
  }
- /*.inside img {
-   width: 50px;
-   height: 50px;
- }*/
  #Menu {
    height: 150vh;
  }
- .contactinfo {
-   margin-right: 1em;
-   margin-left: 1em;
+ #contact {
+   margin-right: 2em;
+   margin-left: 2em;
+}
+@media screen and (min-width: 1100x) {
+  h1 {
+   font-size: 70px;
+   margin: 2.5em;
+ }
+ #header {
+   padding: 3em;
+ }
+ #Menu {
+   height: 130vh;
+ }
+ #contact {
+   margin-right: 3em;
+   margin-left: 3em;
+}
+@media screen and (min-width: 1270x) {
+  h1 {
+   font-size: 80px;
+ }
+ #header {
+   padding: 4em;
+ }
 }
