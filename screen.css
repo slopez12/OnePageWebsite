@@ -210,19 +210,46 @@ h4 {
   html {
     font-size: 1.25em; /*20/16=1.25 */
   }
-  .photo img {
-    width: 475px;
-    float: left;
-  }
-  #sandwiches {
-    width: 50%; /* 567.5 / 860 = 0.659883721 */
-    float: left;
-  }
-  #dinners {
-    width: 40%; /* 275 / 860 = 0.319767442 */
-    margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
-    float: left;
-}
+  body {
+   padding-right: 2%; /* 22/320=0.059459459 */
+   padding-left: 2%; /* 22/320=0.059459459 */
+ }
+ h1 {
+   font-size: 60px;
+   line-height: 65px;
+ }
+ .title {
+   border-width: 25px;
+ }
+ .inside img {
+   width: 50px;
+   height: 50px;
+ }
+ h2 {
+   font-size: 45px;
+ }
+ h3 {
+   line-height: 30px;
+   font-size: 30px;
+ }
+ #Menu li {
+   font-size: 20px;
+   padding-left: 1.5em;
+ }
+ h4 {
+   line-height: 45px;
+   font-size: 45px;
+   text-align: right;
+ }
+ #map {
+   width: 300px;
+   float:left;
+ }
+ #contact {
+   font-size: 25px;
+   line-height: 30px;
+   text-align: right
+ }
   /*#mexdin {
     width: 40%; /* 275 / 860 = 0.319767442 */
     margin-left: 2.0348837%; /* 17.5 / 860 = 0.020348837 */
