@@ -18,14 +18,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-asjust: 100%;
 }
-/*img {
-  max-width: 300px;
-  text-align:center;
-}*/
 
 h1 {
   font-size: 80px;
-  /*font-weight: bold;*/
   font-family: serif;
   line-height: 90px;
   margin: 2.5em;
@@ -64,8 +59,6 @@ h4 {
   background-color: #3d516c;
   color: white;
   padding: 4em;
-  /*width: 100%;*/
-  /*min-width: 50vw;*/
 }
 
 .title {
@@ -76,16 +69,17 @@ h4 {
 
 .inside {
   background: url(TasteofChicago1.jpg);
-  height: 850px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #cb9101;
 }
 #Menu {
   background-color: #3d516c;
   color: black;
   padding: 1.3em;
-  /*width: 100%;*/
-  /*min-width: 50vw;*/
   height: 100vh;
-  /*min-height: 100vh;*/
 }
 
 #Menu li {
@@ -97,7 +91,7 @@ h4 {
 }
 
 #sandwiches, #dinners {
-  text-align: center;
+  text-align: left;
   border-style: double;
   border-color: #cb9101;
   border-width: 22px;
@@ -107,10 +101,6 @@ h4 {
   background-color: #cb9101;
   color: black;
   padding: 1.3em;
-  /*width: 100%;
-  min-width: 70vw;
-  height: 100%;
-  min-height: 47vh;*/
   text-align: center;
   font-family: serif;
   font-size: 35px;
@@ -146,7 +136,7 @@ h4 {
 
 #footer {
   text-align: center;
-  font-size: 15px; 
+  font-size: 15px;
   height: 100%;
   background-color: #3d516c;
   color: white;
@@ -168,10 +158,9 @@ h4 {
   .title {
     border-width: 20px;
   }
-  /*.inside img {
-    width: 50px;
-    height: 50px;
-  }*/
+  .inside {
+    height: 250px;
+  }
   h2 {
     font-size: 35px;
     line-height: 40px;
@@ -216,10 +205,9 @@ h4 {
  .title {
    border-width: 25px;
  }
- /*.inside img {
-   width: 50px;
-   height: 50px;
- }*/
+ .inside {
+   height: 350px;
+ }
  h2 {
    font-size: 45px;
  }
@@ -257,15 +245,11 @@ h4 {
  .title {
    border-width: 35px;
  }
- /*.inside img {
-   width: 50px;
-   height: 50px;
- }*/
  h2 {
    font-size: 50px;
  }
  #Menu {
-   height: 130vh;
+   height: 100vh;
  }
  #Menu li {
    font-size: 18px;
@@ -298,11 +282,10 @@ h4 {
  #header {
    padding: 2em;
  }
- #Menu {
-   height: 150vh;
+ #map {
+   margin-left: 2em;
  }
  #contact {
-   margin-right: 2em;
    margin-left: 2em;
 }
 @media screen and (min-width: 1100x) {
@@ -313,16 +296,21 @@ h4 {
  #header {
    padding: 3em;
  }
- #Menu {
-   height: 130vh;
+ #map {
+   margin-left: 3em;
  }
  #contact {
    margin-right: 3em;
-   margin-left: 3em;
 }
 @media screen and (min-width: 1270x) {
   h1 {
    font-size: 80px;
+ }
+ #map {
+   margin-left: 4em;
+ }
+ #contact {
+   margin-right: 4em;
  }
  #header {
    padding: 4em;
